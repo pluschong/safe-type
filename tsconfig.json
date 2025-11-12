@@ -1,0 +1,9 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"rootDir": ".",
+		"outDir": "../dist/safe-types"
+	},
+	"files": ["index.ts"],
+	"include": ["./**/*.ts"]
+}
