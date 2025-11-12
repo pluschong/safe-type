@@ -2,7 +2,7 @@
 	"extends": "../tsconfig.json",
 	"compilerOptions": {
 		"rootDir": ".",
-		"outDir": "../dist/safe-types"
+		"outDir": "../dist/safe-type"
 	},
 	"files": ["index.ts"],
 	"include": ["./**/*.ts"]

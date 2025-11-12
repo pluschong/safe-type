@@ -1,5 +1,5 @@
 
-# @pluschong/safe-types
+# @pluschong/safe-type
 
 > TypeScript 通用类型库
 
@@ -10,17 +10,17 @@
 ## 安装
 
 ```bash
-# npm install @pluschong/safe-types
+npm install @pluschong/safe-type
 # 或者
-# pnpm add @pluschong/safe-types
+pnpm add @pluschong/safe-type
 # 或者
-# yarn add @pluschong/safe-types
+yarn add @pluschong/safe-type
 ```
 
 ## 使用方法
 
 ```ts
-import type { SafeAny, SafeArray, SafeObject, SafeTimer } from '@pluschong/safe-types';
+import type { SafeAny, SafeArray, SafeObject, SafeTimer } from '@pluschong/safe-type';
 
 function example(a: SafeAny): SafeArray {
 	const arr: SafeArray = [a, 1, 'test'];
@@ -48,4 +48,4 @@ timer = setInterval(() => {}, 1000);
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
+MIT

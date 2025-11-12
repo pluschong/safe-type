@@ -1,5 +1,5 @@
 {
-  "name": "@pluschong/safe-types",
+  "name": "@pluschong/safe-type",
   "version": "0.0.0",
   "description": "通过暴露封装后的any，来规避lint中禁止any的报错",
   "main": "index.js",
