@@ -1,11 +1,19 @@
 {
   "name": "@pluschong/safe-type",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "通过暴露封装后的any，来规避lint中禁止any的报错",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "pluschong",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pluschong/safe-type.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pluschong/safe-type/issues"
+  },
+  "homepage": "https://github.com/pluschong/safe-type#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
